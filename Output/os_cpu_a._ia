@@ -1,0 +1,1 @@
+--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F4xx" --list "..\Listings\os_cpu_a.lst" --xref -o "..\Output\os_cpu_a.o" --depend "..\Output\os_cpu_a.d" "..\ucos_ii\Ports\os_cpu_a.asm"

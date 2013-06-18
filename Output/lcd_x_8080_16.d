@@ -1,0 +1,9 @@
+..\Output\lcd_x_8080_16.o: ..\GUI\LCD_X_8080_16.c
+..\Output\lcd_x_8080_16.o: ..\Config\LCDConf.h
+..\Output\lcd_x_8080_16.o: ..\GUI\Global.h
+..\Output\lcd_x_8080_16.o: ..\GUI\GUI.h
+..\Output\lcd_x_8080_16.o: ..\GUI\GUI_ConfDefaults.h
+..\Output\lcd_x_8080_16.o: ..\Config\GUIConf.h
+..\Output\lcd_x_8080_16.o: ..\GUI\GUI_Type.h
+..\Output\lcd_x_8080_16.o: ..\GUI\LCD.h
+..\Output\lcd_x_8080_16.o: ..\GUI\GUI_Version.h

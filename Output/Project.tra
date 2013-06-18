@@ -1,0 +1,75 @@
+*** Creating Trace Output File '..\Output\Project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\stm32f4xx_it.o"'
+### List of Objects: adding '"..\output\delay.o"'
+### List of Objects: adding '"..\output\led.o"'
+### List of Objects: adding '"..\output\usart.o"'
+### List of Objects: adding '"..\output\glcd.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_exti.o"'
+### List of Objects: adding '"..\output\stm32f4xx_fsmc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_gpio.o"'
+### List of Objects: adding '"..\output\stm32f4xx_usart.o"'
+### List of Objects: adding '"..\output\stm32f4xx_rcc.o"'
+### List of Objects: adding '"..\output\system_stm32f4xx.o"'
+### List of Objects: adding '"..\output\startup_stm32f4xx.o"'
+### List of Objects: adding '"..\GUI\GUIv5_7m_tl___trial.lib"'
+### List of Objects: adding '"..\output\lcd_x_8080_16.o"'
+### List of Objects: adding '"..\output\guidemo.o"'
+### List of Objects: adding '"..\output\guidemo_automotive.o"'
+### List of Objects: adding '"..\output\guidemo_bargraph.o"'
+### List of Objects: adding '"..\output\guidemo_bitmap.o"'
+### List of Objects: adding '"..\output\guidemo_colorbar.o"'
+### List of Objects: adding '"..\output\guidemo_conf.o"'
+### List of Objects: adding '"..\output\guidemo_cursor.o"'
+### List of Objects: adding '"..\output\guidemo_fading.o"'
+### List of Objects: adding '"..\output\guidemo_graph.o"'
+### List of Objects: adding '"..\output\guidemo_iconview.o"'
+### List of Objects: adding '"..\output\guidemo_imageflow.o"'
+### List of Objects: adding '"..\output\guidemo_intro.o"'
+### List of Objects: adding '"..\output\guidemo_listview.o"'
+### List of Objects: adding '"..\output\guidemo_resource.o"'
+### List of Objects: adding '"..\output\guidemo_skinning.o"'
+### List of Objects: adding '"..\output\guidemo_speed.o"'
+### List of Objects: adding '"..\output\guidemo_speedometer.o"'
+### List of Objects: adding '"..\output\guidemo_start.o"'
+### List of Objects: adding '"..\output\guidemo_transparentdialog.o"'
+### List of Objects: adding '"..\output\guidemo_treeview.o"'
+### List of Objects: adding '"..\output\guidemo_vscreen.o"'
+### List of Objects: adding '"..\output\guidemo_washingmachine.o"'
+### List of Objects: adding '"..\output\guidemo_zoomandrotate.o"'
+### List of Objects: adding '"..\output\guiconf.o"'
+### List of Objects: adding '"..\output\lcdconf.o"'
+### List of Objects: adding '"..\output\os_cpu_c.o"'
+### List of Objects: adding '"..\output\os_dbg.o"'
+### List of Objects: adding '"..\output\os_cpu_a.o"'
+### List of Objects: adding '"..\output\os_core.o"'
+### List of Objects: adding '"..\output\os_flag.o"'
+### List of Objects: adding '"..\output\os_mbox.o"'
+### List of Objects: adding '"..\output\os_mem.o"'
+### List of Objects: adding '"..\output\os_mutex.o"'
+### List of Objects: adding '"..\output\os_q.o"'
+### List of Objects: adding '"..\output\os_sem.o"'
+### List of Objects: adding '"..\output\os_task.o"'
+### List of Objects: adding '"..\output\os_time.o"'
+### List of Objects: adding '"..\output\os_tmr.o"'
+### List of Objects: adding '"..\output\gui_x_touch.o"'
+### List of Objects: adding '"..\output\gui_x_ucos.o"'
+### List of Objects: adding '"..\output\bsp.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4 "..\output\main.o" "..\output\stm32f4xx_it.o" "..\output\delay.o" "..\output\led.o" "..\output\usart.o" "..\output\glcd.o" "..\output\misc.o" "..\output\stm32f4xx_exti.o" "..\output\stm32f4xx_fsmc.o" "..\output\stm32f4xx_gpio.o" "..\output\stm32f4xx_usart.o" "..\output\stm32f4xx_rcc.o" "..\output\system_stm32f4xx.o" "..\output\startup_stm32f4xx.o" "..\GUI\GUIv5_7m_tl___trial.lib" "..\output\lcd_x_8080_16.o" "..\output\guidemo.o" "..\output\guidemo_automotive.o" "..\output\guidemo_bargraph.o" "..\output\guidemo_bitmap.o" "..\output\guidemo_colorbar.o" "..\output\guidemo_conf.o" "..\output\guidemo_cursor.o" "..\output\guidemo_fading.o" "..\output\guidemo_graph.o" "..\output\guidemo_iconview.o" "..\output\guidemo_imageflow.o" "..\output\guidemo_intro.o" "..\output\guidemo_listview.o" "..\output\guidemo_resource.o" "..\output\guidemo_skinning.o" "..\output\guidemo_speed.o" "..\output\guidemo_speedometer.o" "..\output\guidemo_start.o" "..\output\guidemo_transparentdialog.o" "..\output\guidemo_treeview.o" "..\output\guidemo_vscreen.o" "..\output\guidemo_washingmachine.o" "..\output\guidemo_zoomandrotate.o" "..\output\guiconf.o" "..\output\lcdconf.o" "..\output\os_cpu_c.o" "..\output\os_dbg.o" "..\output\os_cpu_a.o" "..\output\os_core.o" "..\output\os_flag.o" "..\output\os_mbox.o" "..\output\os_mem.o" "..\output\os_mutex.o" "..\output\os_q.o" "..\output\os_sem.o" "..\output\os_task.o" "..\output\os_time.o" "..\output\os_tmr.o" "..\output\gui_x_touch.o" "..\output\gui_x_ucos.o" "..\output\bsp.o" --library_type=microlib --strict --scatter "..\Output\Project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Listings\Project.map" -o "..\Output\Project.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\Project.axf'
+### ADS-LD Command File: '..\Output\Project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\Project.lnp', Handle=0x00000794
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\Project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
